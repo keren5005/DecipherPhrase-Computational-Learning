@@ -1,22 +1,25 @@
-DecipherPhrase-Computational-Learning
+# DecipherPhrase-Computational-Learning
 
-Overview
-This Python program is designed to decipher a phrase using a provided lexicon and alphabet. It utilizes computational learning to find the optimal decryption key (K) for the given encrypted phrase.
+## Overview
 
-Files
+Welcome to the DecipherPhrase-Computational-Learning project! This Python program is designed to intelligently decipher a given phrase using a provided lexicon and alphabet. Leveraging computational learning techniques, the script aims to find the optimal decryption key (K) for the encrypted phrase.
+
+# Project Structure
 decipher.py:
-The main Python script for deciphering the given phrase.
+The core Python script responsible for deciphering the provided phrase.
 
-config-decipher.json:
-Configuration file containing details such as the secret phrase, lexicon filename, and ABC filename.
+*config-decipher.json:*
+Configuration file containing essential details such as the secret phrase, lexicon filename, and ABC filename.
 
-abc.txt:
+*abc.txt:*
 File containing the alphabet used for decryption.
 
-lexicon.txt:
+*lexicon.txt:*
 File containing the lexicon used for deciphering.
 
-Results
-The program will output the deciphered phrase and the optimal decryption key (K).
+*Results*
+Upon execution, the program will output the deciphered phrase along with the optimal decryption key (K).
 
+*Contributing*
+Contributions are welcome! Feel free to open issues or submit pull requests to enhance the project.
 
